@@ -1,0 +1,876 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container header{
+    width: 100%;
+    height: 80vh;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-position: center;
+}
+.main-container  header nav{
+    width: 100%;
+    height: 100px;
+    /* background-color: rgb(116, 127, 198); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.516);
+    
+}
+.main-container header  nav .logo-container{
+    width: 80%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-container header  nav .logo-container .logo{
+      width: 10%;
+    height: 100%;
+    /* background-color: rgb(54, 238, 177); */
+    display: flex;
+    align-items: center;
+   
+}
+.main-container header nav .logo-container h1{
+    font-size: 33px;
+    color: white;
+}
+
+.main-containerheader  nav .logo-container .burger-menu{
+    width: 10%;
+    height: 100%;
+    /* background-color: rgb(54, 115, 238); */
+    display: flex;
+    align-items: center;
+    justify-content: end; 
+}
+.main-container  nav .logo-container .burger-menu .fa-bars{
+    font-size: 26px;
+    color: white;
+}
+
+
+
+.main-container header .second-container{
+    width: 40%;
+    height: 40%;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+     margin-left: 10%;
+    margin-top: 70px; 
+    gap: 5px;
+}
+.main-container header .second-container h4{
+    font-size: 22px;
+    color: white; 
+}
+.main-container header .second-container h1{
+    font-size: 36px;
+    color: white;
+}
+
+.main-container header .second-container h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.main-container header .second-container p{
+    font-size: 16px;
+    color: white;
+}
+.main-container header .second-container .icons {
+    display: flex;
+    gap: 20px;
+}
+
+
+.main-container header .second-container .icons .fa-facebook-f,
+.main-container header .second-container .icons .fa-instagram,
+.main-container header .second-container .icons .fa-behance,
+.main-container header .second-container .icons .fa-twitter {
+    font-size: 30px;
+    color: rgb(203, 192, 192);
+    border-radius: 50%;
+}
+
+
+.main-container header .second-container .child-two button{
+    height: 35px;
+    width: 100px;
+    background-color:transparent;
+    border-radius: 15px;
+    border-color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+.main-container header .second-container .child-two button{
+color: white;
+}
+
+.main-container header .second-container h4,h1,p, .icons, .child-two{
+    margin-top: 10px;
+}
+
+/* section two start */
+
+.main-container .section-two {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(72, 83, 159);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+}
+
+.main-container .section-two .second-container{
+    width: 70%;
+    height: 110%;
+    background-color: rgb(221, 221, 221);
+    box-shadow: 90px 90px 200px rgba(0, 0, 0, 0.17);
+    display: flex;
+    position: absolute;
+    top: -5%;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-container .section-two .second-container .pic img{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.593);
+    margin: 20px;
+}
+
+.main-container footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(232, 231, 231);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.main-container footer h1{
+    color: rgba(0, 0, 0, 0.784);
+    font-size: 16px;
+}
+
+
+
+
+/* section two end */
+
+
+/* media queiry start */
+
+@media (max-width: 1024px) {
+    .main-container  header nav{
+        width: 100%;
+        height: 90px;
+        /* background-color: rgb(116, 127, 198); */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.516);
+}
+
+.main-container header nav .logo-container h1{
+    font-size: 30px;
+    color: white;
+}
+
+.main-container  nav .logo-container .burger-menu .fa-bars{
+    font-size: 24px;
+    color: white;
+}
+.main-container header .second-container h4{
+    font-size: 20px;
+    color: white; 
+}
+.main-container header .second-container h1{
+    font-size: 33px;
+    color: white;
+}
+
+.main-container header .second-container h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.main-container header .second-container p{
+    font-size: 14px;
+    color: white;
+}
+.main-container header .second-container .icons {
+    display: flex;
+    gap: 20px;
+}
+
+.main-container header .second-container .icons .fa-facebook-f,
+.main-container header .second-container .icons .fa-instagram,
+.main-container header .second-container .icons .fa-behance,
+.main-container header .second-container .icons .fa-twitter {
+    font-size: 28px;
+    color: rgb(203, 192, 192);
+    border-radius: 50%;
+}
+}
+
+@media (max-width: 873px){
+    
+    .main-container  header nav{
+        width: 100%;
+        height: 80px;
+        /* background-color: rgb(116, 127, 198); */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.516);
+}
+
+.main-container header nav .logo-container h1{
+    font-size: 28px;
+    color: white;
+}
+
+.main-container  nav .logo-container .burger-menu .fa-bars{
+    font-size: 22px;
+    color: white;
+}
+
+.main-container header .second-container{
+    width: 60%;
+    height: 40%;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+     margin-left: 10%;
+    margin-top: 70px; 
+    gap: 5px;
+}
+/* .main-container header .second-container h4{
+    font-size: 20px;
+    color: white; 
+}
+.main-container header .second-container h1{
+    font-size: 33px;
+    color: white;
+}
+
+.main-container header .second-container h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.main-container header .second-container p{
+    font-size: 14px;
+    color: white;
+}
+.main-container header .second-container .icons {
+    display: flex;
+    gap: 20px;
+}
+
+.main-container header .second-container .icons .fa-facebook-f,
+.main-container header .second-container .icons .fa-instagram,
+.main-container header .second-container .icons .fa-behance,
+.main-container header .second-container .icons .fa-twitter {
+    font-size: 28px;
+    color: rgb(203, 192, 192);
+    border-radius: 50%;
+} */
+
+.main-container .section-two {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(72, 83, 159);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+}
+.main-container .section-two .second-container{
+    width: 70%;
+    height: 110%;
+    background-color: rgb(221, 221, 221);
+    box-shadow: 90px 90px 200px rgba(0, 0, 0, 0.17);
+    display: flex;
+    position: absolute;
+    top: -5%;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-container .section-two .second-container .pic img{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.593);
+    margin: 10px;
+}
+
+.main-container footer h1{
+    
+    font-size: 14px;
+}
+
+}
+
+@media (max-width: 644px){
+
+    .main-container header{
+        height: 55vh;
+    }
+    .main-container  header nav{
+        width: 100%;
+        height: 70px;
+        /* background-color: rgb(116, 127, 198); */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.516);
+}
+
+.main-container header nav .logo-container h1{
+    font-size: 24px;
+    color: white;
+}
+
+.main-container  nav .logo-container .burger-menu .fa-bars{
+    font-size: 20px;
+    color: white;
+}
+
+.main-container header .second-container{
+    width: 70%;
+    height: 40%;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+     margin-left: 10%;
+    margin-top: 70px; 
+    gap: 5px;
+}
+
+.main-container header .second-container h4{
+    font-size: 18px;
+    color: white; 
+}
+.main-container header .second-container h1{
+    font-size: 28px;
+    color: white;
+}
+
+.main-container header .second-container h3{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+.main-container header .second-container p{
+    font-size: 12px;
+    color: white;
+}
+.main-container header .second-container .icons {
+    display: flex;
+    gap: 20px;
+}
+
+.main-container header .second-container .icons .fa-facebook-f,
+.main-container header .second-container .icons .fa-instagram,
+.main-container header .second-container .icons .fa-behance,
+.main-container header .second-container .icons .fa-twitter {
+    font-size: 26px;
+    color: rgb(203, 192, 192);
+    border-radius: 50%;
+}
+
+.main-container header .second-container .child-two button{
+    height: 30px;
+    width: 100px;
+    background-color:transparent;
+    border-radius: 15px;
+    border-color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+.main-container header .second-container .child-two button{
+    font-size: 12px;
+    color: white;
+}
+
+.main-container .section-two .second-container  h1{
+    font-size: 18px;
+}
+
+.main-container .section-two .second-container .pic img{
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.593);
+    margin: 8px;
+}
+}
+
+@media (max-width:480px){
+
+    .main-container header{
+        height: 50vh;
+    }
+    .main-container  header nav{
+        width: 100%;
+        height: 50px;
+        /* background-color: rgb(116, 127, 198); */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.516);
+}
+
+.main-container header nav .logo-container h1{
+    font-size: 20px;
+    color: white;
+}
+
+.main-container  nav .logo-container .burger-menu .fa-bars{
+    font-size: 16px;
+    color: white;
+}
+
+.main-container header .second-container{
+    width: 80%;
+    height: 40%;
+    /* background-color: blueviolet; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+     margin-left: 10%;
+    margin-top: 70px; 
+    gap: 5px;
+}
+
+.main-container header .second-container h4{
+    font-size: 16px;
+    color: white; 
+}
+.main-container header .second-container h1{
+    font-size: 24px;
+    color: white;
+}
+
+.main-container header .second-container h3{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+.main-container header .second-container p{
+    font-size: 12px;
+    color: white;
+}
+.main-container header .second-container .icons {
+    display: flex;
+    gap: 15px;
+}
+
+.main-container header .second-container .icons .fa-facebook-f,
+.main-container header .second-container .icons .fa-instagram,
+.main-container header .second-container .icons .fa-behance,
+.main-container header .second-container .icons .fa-twitter {
+    font-size: 20px;
+    color: rgb(203, 192, 192);
+    border-radius: 50%;
+}
+
+.main-container header .second-container .child-two button{
+    height: 25px;
+    width: 100px;
+    background-color:transparent;
+    border-radius: 15px;
+    border-color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+.main-container header .second-container .child-two button{
+    font-size: 10px;
+    color: white;
+}
+
+.main-container .section-two .second-container  h1{
+    font-size: 18px;
+}
+
+.main-container .section-two .second-container .pic img{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.593);
+    margin: 8px;
+}
+.main-container .section-two {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(72, 83, 159);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+}
+.main-container .section-two .second-container{
+    width: 80%;
+    height: 110%;
+    background-color: rgb(221, 221, 221);
+    box-shadow: 90px 90px 200px rgba(0, 0, 0, 0.17);
+    display: flex;
+    position: absolute;
+    top: -5%;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-container footer{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(232, 231, 231);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.main-container footer h1{
+  
+    font-size: 10px;
+}
+}
+
+@media (max-width:448px){
+
+    .main-container header{
+        height: 45vh;
+    }
+    .main-container .section-two .second-container .pic img{
+        height: 24px;
+        width: 24px;
+        border-radius: 50%;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.593);
+        margin: 6px;
+    }
+
+    .main-container header .second-container h4{
+        font-size: 14px;
+        color: white; 
+    }
+    .main-container header .second-container h1{
+        font-size: 23px;
+        color: white;
+    }
+    
+    .main-container header .second-container h3{
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+    }
+    .main-container header .second-container p{
+        font-size: 10px;
+        color: white;
+    }
+    .main-container header .second-container .icons {
+        display: flex;
+        gap: 12px;
+    }
+    
+    .main-container header .second-container .icons .fa-facebook-f,
+    .main-container header .second-container .icons .fa-instagram,
+    .main-container header .second-container .icons .fa-behance,
+    .main-container header .second-container .icons .fa-twitter {
+        font-size: 20px;
+        color: rgb(203, 192, 192);
+        border-radius: 50%;
+    }
+    
+    .main-container header .second-container .child-two button{
+        height: 25px;
+        width: 100px;
+        background-color:transparent;
+        border-radius: 15px;
+        border-color: rgb(255, 255, 255);
+        margin-top: 20px;
+    }
+    
+    .main-container header .second-container .child-two button{
+        font-size: 10px;
+        color: white;
+    }
+    
+    .main-container .section-two .second-container  h1{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:387px){
+
+
+    .main-container header{
+        height: 40vh;
+    }
+
+
+
+    .main-container .section-two .second-container .pic img{
+        height: 24px;
+        width: 24px;
+        border-radius: 50%;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.593);
+        margin: 4px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width:949px){
+
+    .main-container header{
+        height: 60vh;
+        width: 100%;
+    }
+    .main-container  header nav{
+        height: 80px;
+    }
+    .main-container header nav .logo-container h1{
+        font-size: 26px;
+    }
+    .main-container header  nav .logo-container .burger-menu .fa-bars{
+        font-size: size 22px;
+    
+    }
+    .main-container header .second-container h4{
+        font-size: 18x;
+        color: white; 
+    }
+    .main-container header .second-container h1{
+        font-size: 26px;
+        color: white;
+    }
+    .main-container header .second-container p{
+        font-size: 12px;
+        color: white;
+    }
+.main-container header .second-container .icons .fa-facebook-f,
+.main-container header .second-container .icons .fa-instagram,
+.main-container header .second-container .icons .fa-square-behance,
+.main-container header .second-container .icons .fa-twitter {
+    font-size: 22px;
+    color: rgb(203, 192, 192);
+    border-radius: 50%;
+}
+.main-container header .second-container .child-two button{
+    height: 30px;
+    width: 100px;
+    background-color:transparent;
+    border-radius: 15px;
+    border-color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+}
+
+
+
+@media (max-width:765px){
+    .main-container header{
+        height: 50vh;
+        width: 100%;
+    }
+    .main-container  header nav{
+        height: 60px;
+    }
+    .main-container  header nav{
+        height: 60px;
+    }
+    .main-container header nav .logo-container h1{
+        font-size: 24px;
+    }
+    .main-container header  nav .logo-container .burger-menu .fa-bars{
+        font-size: 20px;
+    
+    }
+    .main-container header .second-container h4{
+        font-size: 14x;
+        color: white; 
+    }
+    .main-container header .second-container h1{
+        font-size: 22px;
+        color: white;
+    }
+    .main-container header .second-container p{
+        font-size: 10px;
+        color: white;
+    }
+
+    .main-container header .second-container .icons .fa-facebook,
+.main-container header .second-container .icons .fa-square-instagram,
+.main-container header .second-container .icons .fa-square-behance,
+.main-container header .second-container .icons .fa-square-x-twitter {
+    font-size: 22px;
+    color: rgb(203, 192, 192);
+    border-radius: 50%;
+
+}
+.main-container header .second-container .child-two button{
+    height: 30px;
+    width: 100px;
+    background-color:transparent;
+    border-radius: 15px;
+    border-color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+}
+
+@media (max-width:644px){
+    .main-container header{
+        height: 40vh;
+        width: 100%;
+    }
+    .main-container  header nav{
+        height: 40px;
+    }
+    .main-container  header nav{
+        height: 30px;
+    }
+    .main-container header nav .logo-container h1{
+        font-size: 18px;
+    }
+    .main-container header  nav .logo-container .burger-menu .fa-bars{
+        font-size: 18px;
+    
+    }
+    .main-container header .second-container h4{
+        font-size: 12x;
+        color: white; 
+    }
+    .main-container header .second-container h1{
+        font-size: 18px;
+        color: white;
+    }
+    .main-container header .second-container p{
+        font-size: 8px;
+        color: white;
+    }
+    
+    .main-container header .second-container .icons .fa-facebook,
+.main-container header .second-container .icons .fa-square-instagram,
+.main-container header .second-container .icons .fa-square-behance,
+.main-container header .second-container .icons .fa-square-x-twitter {
+    font-size: 18px;
+    color: rgb(203, 192, 192);
+    border-radius: 50%;
+
+}
+.main-container header .second-container .child-two button{
+    height: 30px;
+    width: 100px;
+    background-color:transparent;
+    border-radius: 15px;
+    border-color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+}
+@media (max-width:388px){
+    .main-container header{
+        height: 30vh;
+        width: 100%;
+    }
+    .main-container  header nav{
+        height: 40px;
+    }
+    .main-container  header nav{
+        height: 40px;
+    }
+    .main-container header nav .logo-container h1{
+        font-size: 18px;
+    }
+    .main-container header  nav .logo-container .burger-menu .fa-bars{
+        font-size: 16px;
+    
+    }
+} */
+
+
+/* media queiry end */
+
+
+
+
+
+
+
