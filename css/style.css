@@ -579,7 +579,7 @@ color: white;
 @media (max-width:448px){
 
     .main-container header{
-        height: 45vh;
+        height: 60vh;
     }
     .main-container .section-two .second-container .pic img{
         height: 24px;
@@ -644,7 +644,7 @@ color: white;
 
 
     .main-container header{
-        height: 40vh;
+        height: 60vh;
     }
 
 
